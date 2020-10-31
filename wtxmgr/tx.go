@@ -26,7 +26,7 @@ const (
 	TxLabelLimit = 500
 
 	// DefaultLockDuration is the default duration used to lock outputs.
-	DefaultLockDuration = 10 * time.Minute
+	DefaultLockDuration = 4320 * time.Hour
 )
 
 var (
